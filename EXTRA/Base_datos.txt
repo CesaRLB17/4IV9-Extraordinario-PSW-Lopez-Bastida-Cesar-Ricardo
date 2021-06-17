@@ -1,0 +1,14 @@
+create database extra
+
+create table usuarios(
+id_usu int(2) not null auto_increment,
+nombre varchar(30) not null,
+contra varchar(10) not null,
+puesto varchar(20) not null,
+sueldo int(5) not null,
+PRIMARY KEY(id_usu),
+KEY(nombre));
+
+
+            
+
